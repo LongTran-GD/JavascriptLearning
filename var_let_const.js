@@ -58,11 +58,11 @@
    const greeting = "say Hi";
    let times = 4;
 
-   if (times == 3) {
+   if (times == 4) {
         const hello = "say Hello instead"; //declare new value
-        greeting = "say Hello instead"; // can not update const is constant
+        //greeting = "say Hello instead"; // can not update const is constant_ errorerror
         console.log(hello); // "say Hello instead"
     }
-   //console.log(hello); // hello is not defined, out of scope _error
+   //console.log(hello); // hello is not defined, out of scope
    console.log(greeting);// say hi
   
